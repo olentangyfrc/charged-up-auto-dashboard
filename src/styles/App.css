@@ -2,3 +2,58 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    height: 7rem;
+    /* background-color: rgba(30, 30, 30, 0.7); */
+    background-color: rgba(0, 48, 135, 0.7);
+
+    display: flex;
+    align-items: center;
+}
+
+#header-image {
+    margin-left: 3rem;
+    height: 4rem;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    background-image: url('../images/dark_mosaic.png');
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+#main-logo {
+    margin-top: 4rem;
+    width: 15rem;
+}
+
+#grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 14rem;
+}
+
+.grid-section {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-section > div {
+    display: flex;
+}
+
+#middle-section {
+    margin: 0 4rem;
+}

@@ -24,7 +24,7 @@ logger = logging.getLogger("dashboard")
 log_datefmt = "%H:%M:%S"
 log_format = "%(asctime)s:%(msecs)03d %(levelname)-8s: %(name)-20s: %(message)s"
 
-ROOT_FOLDER = "build"
+ROOT_FOLDER = "public"
 
 
 def init_networktables(options):
@@ -52,6 +52,10 @@ def main():
     parser.add_option(
         "-p", "--port", type=int, default=8888, help="Port to run web server on"
     )
+
+    # parser.add_option(
+    #     "-op", "-outport", type=int, default=3000, help="The port that the React site will run on."
+    # )
 
     parser.add_option(
         "-v",
