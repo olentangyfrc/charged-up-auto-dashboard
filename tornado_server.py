@@ -24,7 +24,7 @@ logger = logging.getLogger("dashboard")
 log_datefmt = "%H:%M:%S"
 log_format = "%(asctime)s:%(msecs)03d %(levelname)-8s: %(name)-20s: %(message)s"
 
-ROOT_FOLDER = "public"
+ROOT_FOLDER = "build"
 
 
 def init_networktables(options):

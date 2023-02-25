@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
 }
 
 header {
@@ -39,7 +40,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    margin-top: 14rem;
+    margin-top: 10rem;
 }
 
 .grid-section {

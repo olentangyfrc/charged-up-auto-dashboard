@@ -1,2 +1,1 @@
-start cmd.exe /K "py tornado_server.py --dashboard"
-npm start
+py -3.9 tornado_server.py --dashboard
