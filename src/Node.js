@@ -10,7 +10,7 @@ const Node = (props) => {
         >
 
             <p>{props.index}</p>
-            {<img src={(props.isCone === undefined)? "images/frito.png" : (props.isCone)? "/images/cone.png" : "/images/cube.png"} alt="Game Piece" />}
+            <img src={(props.isCone === undefined)? "images/hybrid.png" : (props.isCone)? "/images/cone.png" : "/images/cube.png"} alt="Game Piece" />
         </button>
     );
 }

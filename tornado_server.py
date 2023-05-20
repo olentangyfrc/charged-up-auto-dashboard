@@ -1,5 +1,13 @@
 #!/usr/bin/env python
 """
+    This file was taken from an example from https://github.com/robotpy/pynetworktables2js
+    There have, however, been minor changes.
+
+    The original can be found at https://github.com/robotpy/pynetworktables2js/blob/main/example/tornado_server.py
+"""
+
+"""
+    
     This is an example server application, using the tornado handlers,
     that you can use to connect your HTML/Javascript dashboard code to
     your robot via NetworkTables.
